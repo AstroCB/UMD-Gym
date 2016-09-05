@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA83D381D7DFAB50018F528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA83D371D7DFAB50018F528 /* AppDelegate.swift */; };
+		9DA83D3A1D7DFAB50018F528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA83D391D7DFAB50018F528 /* ViewController.swift */; };
+		9DA83D3D1D7DFAB50018F528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA83D3B1D7DFAB50018F528 /* Main.storyboard */; };
+		9DA83D3F1D7DFAB50018F528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA83D3E1D7DFAB50018F528 /* Assets.xcassets */; };
+		9DA83D421D7DFAB50018F528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA83D401D7DFAB50018F528 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DA83D341D7DFAB50018F528 /* UMD Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UMD Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA83D371D7DFAB50018F528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DA83D391D7DFAB50018F528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DA83D3C1D7DFAB50018F528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA83D3E1D7DFAB50018F528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA83D411D7DFAB50018F528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA83D431D7DFAB50018F528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA83D311D7DFAB50018F528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA83D2B1D7DFAB50018F528 = {
+			isa = PBXGroup;
+			children = (
+				9DA83D361D7DFAB50018F528 /* UMD Gym */,
+				9DA83D351D7DFAB50018F528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA83D351D7DFAB50018F528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA83D341D7DFAB50018F528 /* UMD Gym.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA83D361D7DFAB50018F528 /* UMD Gym */ = {
+			isa = PBXGroup;
+			children = (
+				9DA83D371D7DFAB50018F528 /* AppDelegate.swift */,
+				9DA83D391D7DFAB50018F528 /* ViewController.swift */,
+				9DA83D3B1D7DFAB50018F528 /* Main.storyboard */,
+				9DA83D3E1D7DFAB50018F528 /* Assets.xcassets */,
+				9DA83D401D7DFAB50018F528 /* LaunchScreen.storyboard */,
+				9DA83D431D7DFAB50018F528 /* Info.plist */,
+			);
+			path = "UMD Gym";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA83D331D7DFAB50018F528 /* UMD Gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA83D461D7DFAB50018F528 /* Build configuration list for PBXNativeTarget "UMD Gym" */;
+			buildPhases = (
+				9DA83D301D7DFAB50018F528 /* Sources */,
+				9DA83D311D7DFAB50018F528 /* Frameworks */,
+				9DA83D321D7DFAB50018F528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UMD Gym";
+			productName = "UMD Gym";
+			productReference = 9DA83D341D7DFAB50018F528 /* UMD Gym.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA83D2C1D7DFAB50018F528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cameron Bernhardt";
+				TargetAttributes = {
+					9DA83D331D7DFAB50018F528 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VFK9RBFX9F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DA83D2F1D7DFAB50018F528 /* Build configuration list for PBXProject "UMD Gym" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA83D2B1D7DFAB50018F528;
+			productRefGroup = 9DA83D351D7DFAB50018F528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA83D331D7DFAB50018F528 /* UMD Gym */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA83D321D7DFAB50018F528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA83D421D7DFAB50018F528 /* LaunchScreen.storyboard in Resources */,
+				9DA83D3F1D7DFAB50018F528 /* Assets.xcassets in Resources */,
+				9DA83D3D1D7DFAB50018F528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA83D301D7DFAB50018F528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA83D3A1D7DFAB50018F528 /* ViewController.swift in Sources */,
+				9DA83D381D7DFAB50018F528 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA83D3B1D7DFAB50018F528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA83D3C1D7DFAB50018F528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA83D401D7DFAB50018F528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA83D411D7DFAB50018F528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA83D441D7DFAB50018F528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DA83D451D7DFAB50018F528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA83D471D7DFAB50018F528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VFK9RBFX9F;
+				INFOPLIST_FILE = "UMD Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cameronbernhardt.UMD-Gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DA83D481D7DFAB50018F528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VFK9RBFX9F;
+				INFOPLIST_FILE = "UMD Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cameronbernhardt.UMD-Gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA83D2F1D7DFAB50018F528 /* Build configuration list for PBXProject "UMD Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA83D441D7DFAB50018F528 /* Debug */,
+				9DA83D451D7DFAB50018F528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA83D461D7DFAB50018F528 /* Build configuration list for PBXNativeTarget "UMD Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA83D471D7DFAB50018F528 /* Debug */,
+				9DA83D481D7DFAB50018F528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA83D2C1D7DFAB50018F528 /* Project object */;
+}

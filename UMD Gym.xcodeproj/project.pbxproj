@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D904B2A1D7E225500F3D8E2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D904B291D7E225500F3D8E2 /* MessageUI.framework */; };
 		9DA83D381D7DFAB50018F528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA83D371D7DFAB50018F528 /* AppDelegate.swift */; };
 		9DA83D3A1D7DFAB50018F528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA83D391D7DFAB50018F528 /* ViewController.swift */; };
 		9DA83D3D1D7DFAB50018F528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA83D3B1D7DFAB50018F528 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D904B291D7E225500F3D8E2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		9DA83D341D7DFAB50018F528 /* UMD Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UMD Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA83D371D7DFAB50018F528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA83D391D7DFAB50018F528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +31,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D904B2A1D7E225500F3D8E2 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D904B281D7E225400F3D8E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D904B291D7E225500F3D8E2 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9DA83D2B1D7DFAB50018F528 = {
 			isa = PBXGroup;
 			children = (
 				9DA83D361D7DFAB50018F528 /* UMD Gym */,
 				9DA83D351D7DFAB50018F528 /* Products */,
+				9D904B281D7E225400F3D8E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -300,6 +312,7 @@
 				9DA83D481D7DFAB50018F528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

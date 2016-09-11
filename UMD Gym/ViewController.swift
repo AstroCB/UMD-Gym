@@ -112,7 +112,9 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
                     DispatchQueue.main.async {
                         UIApplication.shared.isNetworkActivityIndicatorVisible = false
                         // Update labels
-                        let perc: Int = wrData["count"] as! Int
+                        let count: Int = wrData["count"] as! Int
+                        var perc: Int = max(0, min(count, 80))/80
+                        perc = (perc > 100) ? 100 : perc
                         self.percFull.text = "\(perc)% full"
                         self.lastUpdated.text = "Last updated: \(wrData["time"]!)"
                         
